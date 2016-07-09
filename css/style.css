@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboto', sans-serif, 'Microsoft JhengHei';
+}
+.facebook_str {
+    color: #3b5998;
+}
+.facebook_btn {
+    color: #ffffff;
+    background: #3b5998;
+}
+.facebook_btn:hover {
+    background: #4b71c4;
+}
+.google_str {
+    color: #d73d32;
+}
+.google_btn {
+    color: #ffffff;
+    background: #d73d32;
+}
+.google_btn:hover {
+    background: #ed4438;
+}
+.page_facebook {
+    display: none;
+}
+.page_google {
+    display: none;
+}
+.card .card-image .card-title {
+    font-weight: bold;
+    background:rgba(0, 0, 0, 0.3);
+    padding: 7px;
+    border-left: solid 5px #00e3d5;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating).fb_link {
+    color: #039be5;
+}
+.facebook_logout {
+    cursor: pointer;
+}

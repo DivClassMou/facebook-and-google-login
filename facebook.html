@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2 class="facebook_str">Facebook</h2>
+            <div class="progress">
+                <div class="indeterminate"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://graph.facebook.com/{{id}}/picture?access_token={{accessToken}}&type=large" class="circle responsive-img z-depth-1 photo">
+                    <span class="card-title">{{name}}</span>
+                </div>
+                <div class="card-content">
+                    <p>ID: {{id}}</p>
+                    <p>Gender: {{gender}}</p>
+                </div>
+                <div class="card-action">
+                    <a href="{{link}}" class="fb_link" target="_blank">Facebook Link</a>
+                    <a class="facebook_logout">logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
