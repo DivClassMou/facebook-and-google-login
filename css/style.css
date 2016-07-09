@@ -39,3 +39,10 @@ body {
 .facebook_logout {
     cursor: pointer;
 }
+.link_friend {
+    margin-left: 5px;
+    color: #808080;
+}
+.link_friend:hover {
+    color: #b3b3b3;
+}

@@ -138,6 +138,13 @@ facebook.userInfo = function(callback) {
     });
 }
 
+facebook.getFriends = function(callback) {
+    console.log('Scraching your friends.... ');
+    FB.api('/me/friends', function(response) {
+        callback(response);
+    });
+}
+
 // facebook.cognitoFBLogin = function(response, callback) {
 //     if (response.authResponse) {
 //
