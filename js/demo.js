@@ -17,6 +17,9 @@ $(function() {
         });
     });
 
+    google.init('325938154683-31h35bfspicc3nsjoqrufa5mpc2mosch.apps.googleusercontent.com');
+    // google.render();
+
 });
 
 
